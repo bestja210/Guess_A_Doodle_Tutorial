@@ -49,6 +49,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		962047D62AEB87DF003BCE47 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				965516DB2AEB1E860043E9C3 /* ContentView.swift */,
+				965516E72AEB1FE40043E9C3 /* MenuView.swift */,
+				962047CD2AEB398D003BCE47 /* GameView.swift */,
+				962047CF2AEB5B22003BCE47 /* DrawingView.swift */,
+				962047CB2AEB31BD003BCE47 /* GameOverView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		962047D72AEB87FC003BCE47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				965516EB2AEB20190043E9C3 /* Misc.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		962047D82AEB8819003BCE47 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				965516E92AEB20120043E9C3 /* MatchManager.swift */,
+				962047D22AEB70D0003BCE47 /* MatchManager+GKMatchmakerViewControllerDelegate.swift */,
+				962047D42AEB720C003BCE47 /* MatchManager+GKMatchDelegate.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		965516CD2AEB1E860043E9C3 = {
 			isa = PBXGroup;
 			children = (
@@ -70,17 +100,11 @@
 			children = (
 				962047D12AEB6D8C003BCE47 /* Game_Tutorial_SwiftUI.entitlements */,
 				965516D92AEB1E860043E9C3 /* Game_Tutorial_SwiftUIApp.swift */,
-				965516DB2AEB1E860043E9C3 /* ContentView.swift */,
+				962047D72AEB87FC003BCE47 /* Models */,
+				962047D62AEB87DF003BCE47 /* Views */,
+				962047D82AEB8819003BCE47 /* ViewModels */,
 				965516DD2AEB1E870043E9C3 /* Assets.xcassets */,
 				965516DF2AEB1E870043E9C3 /* Preview Content */,
-				965516E72AEB1FE40043E9C3 /* MenuView.swift */,
-				965516E92AEB20120043E9C3 /* MatchManager.swift */,
-				965516EB2AEB20190043E9C3 /* Misc.swift */,
-				962047CB2AEB31BD003BCE47 /* GameOverView.swift */,
-				962047CD2AEB398D003BCE47 /* GameView.swift */,
-				962047CF2AEB5B22003BCE47 /* DrawingView.swift */,
-				962047D22AEB70D0003BCE47 /* MatchManager+GKMatchmakerViewControllerDelegate.swift */,
-				962047D42AEB720C003BCE47 /* MatchManager+GKMatchDelegate.swift */,
 			);
 			path = Game_Tutorial_SwiftUI;
 			sourceTree = "<group>";
